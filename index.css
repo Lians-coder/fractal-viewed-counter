@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 36px;
+}
+
+.page {
+ max-width: 70%;
+ max-height: 90%;
+ margin: auto;
+ border: 1px solid grey;
+ border-radius: 25px;
+ padding: 40px 100px;
+ overflow: scroll;
+ flex-wrap: wrap;
+}
+
+body {
+    align-items: center;
+    background-image: url("Cactus-mode-Mandelbrot.svg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 42px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+header {
+  padding-top: 80px;
+}
+h1 {
+  font-family: 'Tektur', cursive;
+  font-size: 60px;
+}
+h2 {
+  margin: 40px;
+  flex-direction: row;
+  font-size: 90px;
+  font-family: 'Handjet', cursive;
+}
+section {
+  margin: 50px 0 0 0;
+}
+footer {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  max-width: 600px;
+  margin-top: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
